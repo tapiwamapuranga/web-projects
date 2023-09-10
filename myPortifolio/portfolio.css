@@ -1,0 +1,90 @@
+/*first paragraph and spherical picture*/
+.portfolioheader
+{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+margin-top: 60px;
+margin-bottom: 10px;
+align-items: center;
+}
+.portfolioheader div
+{
+  flex: 1;
+  display: inline-block;
+}
+.portfolioheader h1
+{
+  max-width: 100%;
+  line-height: 1.5;
+  font-style: italic;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+}
+.headerimg
+{
+  max-width: 100%;
+  border-radius:50%;
+  transition: opacity 0.8s;
+  cursor: pointer;
+}
+.headerimg:hover
+{
+  opacity : 0.8;
+}
+/*section styling*/
+section
+{
+   padding:50px;
+}
+
+section .skills
+{
+text-align: left;
+ padding: 20px;
+ font-size: 18px;
+ line-height: 1.5;
+ max-width: 700px;
+}
+section h2
+{
+  font-size: 32px;
+}
+/*styling of the PROJECTS section
+which is going to be displayed in a 2by2 grid*/
+.projects
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.projects div
+{
+  padding:30px;
+  line-height:1.5;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.projects div:hover
+{
+  background-color: aliceblue;
+}
+.projects div:active
+{
+  color: rgb(15, 97, 221);
+}
+/*styling education grid*/
+.educationgrid
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.educationgrid div
+{
+  padding: 20px;
+}
+.educationgrid h3
+{
+  margin-bottom: 8px;
+  text-align: le ft;
+}

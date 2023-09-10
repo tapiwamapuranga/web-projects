@@ -1,0 +1,132 @@
+.home
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+
+}
+.home-content
+{
+    background-color: transparent;
+   text-align: justify;
+   margin-top: 230px;
+}
+
+.home-content h1
+{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.home-content h3
+{
+  margin-top: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #1100ff;
+   
+}
+.home-content p
+{
+    position: relative;
+    font-size: 20px;
+    margin: 20px 0 40px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(37, 37, 37);
+}
+.home-content li{
+    line-height: 1.5;
+    padding: 8px;
+}
+.home-content h4
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.home-content .btn-box
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+
+.home-content .buttons
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+.homepicgrid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.homepic
+{
+  width: 100%;
+ align-items: center;
+ border-top-right-radius: 50px;
+ border-top-left-radius: 50px;
+ border-bottom-right-radius: 500px;
+ border-bottom-left-radius: 500px;
+ transition: 3s;
+}
+
+.homepic:hover
+{
+    background-color: #8bbccf;
+    border-style: groove;
+    border-color: rgb(74, 238, 115);
+    border-width: 10px;
+    opacity: 0.5;
+}
+.buttons a
+{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background:#00abf0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.buttons a:nth-child(2)
+{
+    background-color: transparent;
+    color:#00abf0 ;
+}
+.buttons a:nth-child(2):hover
+{
+    color: #081b29;
+    background: #00abf0;
+}
+.buttons a:nth-child(1):hover
+{
+    color: #00abf0;
+    background:transparent ;
+}
+
+
